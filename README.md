@@ -1,4 +1,4 @@
-Pokémon Overhaul for TCG Card Shop Simulator v0.47
+Pokémon Overhaul for TCG Card Shop Simulator Card Renamer and Renamed Files
 
 This repository contains the corrected files for the Pokémon Overhaul mod for the game TCG Card Shop Simulator version v0.47. All the files have been correctly renamed to ensure the mod works flawlessly. You will find both individual renamed files and a zipped package containing all of them. Additionally, we’ve included a Python script that automates the file renaming process.
 Repository Contents
@@ -7,6 +7,9 @@ Repository Contents
     Zipped Package: A zipped file containing all the correctly renamed files.
     Python Script: A script that automates the process of renaming configuration files for the mod using an Excel spreadsheet as input.
 
+Important: Compatibility with More Card Expansions Mod
+
+This script is not limited to the Pokémon Overhaul mod; it works for any card mod that utilizes the More Card Expansions mod. So, you can use this tool to rename files for any card expansion that follows this format, making it a versatile tool for mod creators and users alike.
 How the Script Works
 
 The Python script is designed to make the renaming process for mod configuration files easier. Here’s a brief explanation of how it works, aimed at users with no programming experience:
@@ -22,7 +25,7 @@ The script reads this spreadsheet and, for each file it finds, it:
 
     Identifies the original file (using the name from Column A).
     Renames the file to the new name specified (using the name from Column B).
-    This process is repeated for all the files listed in the spreadsheet, ensuring that all the filenames and their respective mod cards are updated correctly.
+    This process is repeated for all the files listed in the spreadsheet, ensuring that all filenames and their respective mod cards are updated correctly.
 
 Output
 
